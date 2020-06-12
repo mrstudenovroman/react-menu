@@ -1,0 +1,15 @@
+[
+  { "svg": "home", "name": "Главная", "url": "/" },
+  {
+    "svg": "news",
+    "name": "Новости",
+    "url": "/news",
+    "subRoutes": [
+      { "url": "/news/1", "name": "Статья 1" },
+      { "url": "/news/2", "name": "Статья 2" },
+      { "url": "/news/3", "name": "Статья 3" }
+    ]
+  },
+  { "svg": "profile", "name": "Профиль", "url": "/profile" },
+  { "svg": "setting", "name": "Настройки", "url": "/setting" }
+]
